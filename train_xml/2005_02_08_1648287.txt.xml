@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Warning</word>
+            <lemma>warning</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>Cigarette</word>
+            <lemma>cigarette</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>smoking</word>
+            <lemma>smoking</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>may</word>
+            <lemma>may</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>hazardous</word>
+            <lemma>hazardous</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>your</word>
+            <lemma>you</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>job</word>
+            <lemma>job</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (FRAG (NP (NN Warning)) (: :) (S (NP (NN Cigarette) (NN smoking)) (VP (MD may) (VP (VB be) (ADJP (JJ hazardous) (PP (TO to) (NP (PRP$ your) (NN job))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nn">
+            <governor idx="4">smoking</governor>
+            <dependent idx="3">Cigarette</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="4">smoking</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="5">may</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Warning</governor>
+            <dependent idx="7">hazardous</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">job</governor>
+            <dependent idx="9">your</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">to</governor>
+            <dependent idx="10">job</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nn">
+            <governor idx="4">smoking</governor>
+            <dependent idx="3">Cigarette</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="4">smoking</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="5">may</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Warning</governor>
+            <dependent idx="7">hazardous</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">job</governor>
+            <dependent idx="9">your</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="10">job</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nn">
+            <governor idx="4">smoking</governor>
+            <dependent idx="3">Cigarette</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="4">smoking</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="5">may</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="6">be</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Warning</governor>
+            <dependent idx="7">hazardous</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="10">job</governor>
+            <dependent idx="9">your</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="7">hazardous</governor>
+            <dependent idx="10">job</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>That</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>what</word>
+            <lemma>what</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>employees</word>
+            <lemma>employee</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>Weyco</word>
+            <lemma>Weyco</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>insurance</word>
+            <lemma>insurance</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>benefits</word>
+            <lemma>benefit</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>administrator</word>
+            <lemma>administrator</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>this</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>small</word>
+            <lemma>small</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>central</word>
+            <lemma>central</lemma>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>Michigan</word>
+            <lemma>Michigan</lemma>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="17">
+            <word>town</word>
+            <lemma>town</lemma>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="18">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>162</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>found</word>
+            <lemma>find</lemma>
+            <CharacterOffsetBegin>163</CharacterOffsetBegin>
+            <CharacterOffsetEnd>168</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>out</word>
+            <lemma>out</lemma>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT That)) (VP (VBZ is) (SBAR (WHNP (WP what)) (S (NP (NP (NP (NNS employees)) (PP (IN at) (NP (NNP Weyco)))) (, ,) (NP (NP (DT an) (NN insurance) (NNS benefits) (NN administrator)) (PP (IN in) (NP (DT this) (JJ small) (JJ central) (NNP Michigan) (NN town)))) (, ,)) (VP (VBN found) (PRT (RP out)))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="2">is</governor>
+            <dependent idx="1">That</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">found</governor>
+            <dependent idx="3">what</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">found</governor>
+            <dependent idx="4">employees</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">employees</governor>
+            <dependent idx="5">at</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">at</governor>
+            <dependent idx="6">Weyco</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">administrator</governor>
+            <dependent idx="8">an</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">administrator</governor>
+            <dependent idx="9">insurance</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">administrator</governor>
+            <dependent idx="10">benefits</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">employees</governor>
+            <dependent idx="11">administrator</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">administrator</governor>
+            <dependent idx="12">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">town</governor>
+            <dependent idx="13">this</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">town</governor>
+            <dependent idx="14">small</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">town</governor>
+            <dependent idx="15">central</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">town</governor>
+            <dependent idx="16">Michigan</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">in</governor>
+            <dependent idx="17">town</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">is</governor>
+            <dependent idx="19">found</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="19">found</governor>
+            <dependent idx="20">out</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="2">is</governor>
+            <dependent idx="1">That</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">found</governor>
+            <dependent idx="3">what</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">found</governor>
+            <dependent idx="4">employees</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="4">employees</governor>
+            <dependent idx="6">Weyco</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">administrator</governor>
+            <dependent idx="8">an</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">administrator</governor>
+            <dependent idx="9">insurance</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">administrator</governor>
+            <dependent idx="10">benefits</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">employees</governor>
+            <dependent idx="11">administrator</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">town</governor>
+            <dependent idx="13">this</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">town</governor>
+            <dependent idx="14">small</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">town</governor>
+            <dependent idx="15">central</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">town</governor>
+            <dependent idx="16">Michigan</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">administrator</governor>
+            <dependent idx="17">town</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">is</governor>
+            <dependent idx="19">found</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="19">found</governor>
+            <dependent idx="20">out</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="2">is</governor>
+            <dependent idx="1">That</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="19">found</governor>
+            <dependent idx="3">what</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="19">found</governor>
+            <dependent idx="4">employees</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="4">employees</governor>
+            <dependent idx="6">Weyco</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">administrator</governor>
+            <dependent idx="8">an</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">administrator</governor>
+            <dependent idx="9">insurance</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="11">administrator</governor>
+            <dependent idx="10">benefits</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">employees</governor>
+            <dependent idx="11">administrator</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">town</governor>
+            <dependent idx="13">this</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">town</governor>
+            <dependent idx="14">small</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="17">town</governor>
+            <dependent idx="15">central</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">town</governor>
+            <dependent idx="16">Michigan</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="11">administrator</governor>
+            <dependent idx="17">town</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">is</governor>
+            <dependent idx="19">found</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="19">found</governor>
+            <dependent idx="20">out</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

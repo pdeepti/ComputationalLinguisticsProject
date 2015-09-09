@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>idea</word>
+            <lemma>idea</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>been</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>around</word>
+            <lemma>around</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>years</word>
+            <lemma>year</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <Timex tid="t1" type="DURATION">PXY</Timex>
+          </token>
+          <token id="8">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN idea)) (VP (VBZ has) (VP (VBN been) (ADJP (IN around) (PP (IN for) (NP (NNS years)))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="det">
+            <governor idx="2">idea</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">around</governor>
+            <dependent idx="2">idea</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">around</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">around</governor>
+            <dependent idx="4">been</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">around</governor>
+            <dependent idx="6">for</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="6">for</governor>
+            <dependent idx="7">years</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="det">
+            <governor idx="2">idea</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">around</governor>
+            <dependent idx="2">idea</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">around</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">around</governor>
+            <dependent idx="4">been</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">around</governor>
+            <dependent idx="7">years</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="det">
+            <governor idx="2">idea</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">around</governor>
+            <dependent idx="2">idea</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">around</governor>
+            <dependent idx="3">has</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">around</governor>
+            <dependent idx="4">been</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="5">around</governor>
+            <dependent idx="7">years</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>Spain</word>
+            <lemma>Spain</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="3">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>elsewhere</word>
+            <lemma>elsewhere</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>Europe</word>
+            <lemma>Europe</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>utility</word>
+            <lemma>utility</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>companies</word>
+            <lemma>company</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>have</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>long</word>
+            <lemma>long</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>offered</word>
+            <lemma>offer</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>high-speed</word>
+            <lemma>high-speed</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>Internet</word>
+            <lemma>internet</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>MISC</NER>
+          </token>
+          <token id="15">
+            <word>service</word>
+            <lemma>service</lemma>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+          </token>
+          <token id="17">
+            <word>consumers</word>
+            <lemma>consumer</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="18">
+            <word>over</word>
+            <lemma>over</lemma>
+            <CharacterOffsetBegin>147</CharacterOffsetBegin>
+            <CharacterOffsetEnd>151</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>their</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>152</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>power</word>
+            <lemma>power</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>163</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>lines</word>
+            <lemma>line</lemma>
+            <CharacterOffsetBegin>164</CharacterOffsetBegin>
+            <CharacterOffsetEnd>169</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>169</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (NP (NNP Spain)) (CC and) (NP (NP (RB elsewhere)) (PP (IN in) (NP (NNP Europe)))))) (, ,) (NP (NN utility) (NNS companies)) (VP (VBP have) (ADVP (RB long)) (VP (VBN offered) (NP (JJ high-speed) (NN Internet) (NN service)) (PP (TO to) (NP (NP (NNS consumers)) (PP (IN over) (NP (PRP$ their) (NN power) (NNS lines))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="prep">
+            <governor idx="12">offered</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">In</governor>
+            <dependent idx="2">Spain</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">Spain</governor>
+            <dependent idx="3">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">Spain</governor>
+            <dependent idx="4">elsewhere</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="4">elsewhere</governor>
+            <dependent idx="5">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="5">in</governor>
+            <dependent idx="6">Europe</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">companies</governor>
+            <dependent idx="8">utility</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">offered</governor>
+            <dependent idx="9">companies</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">offered</governor>
+            <dependent idx="10">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">offered</governor>
+            <dependent idx="11">long</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">service</governor>
+            <dependent idx="13">high-speed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">service</governor>
+            <dependent idx="14">Internet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">offered</governor>
+            <dependent idx="15">service</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="12">offered</governor>
+            <dependent idx="16">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">to</governor>
+            <dependent idx="17">consumers</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">consumers</governor>
+            <dependent idx="18">over</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">lines</governor>
+            <dependent idx="19">their</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">lines</governor>
+            <dependent idx="20">power</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">over</governor>
+            <dependent idx="21">lines</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="prep_in">
+            <governor idx="12">offered</governor>
+            <dependent idx="2">Spain</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">Spain</governor>
+            <dependent idx="4">elsewhere</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="4">elsewhere</governor>
+            <dependent idx="6">Europe</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">companies</governor>
+            <dependent idx="8">utility</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">offered</governor>
+            <dependent idx="9">companies</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">offered</governor>
+            <dependent idx="10">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">offered</governor>
+            <dependent idx="11">long</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">service</governor>
+            <dependent idx="13">high-speed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">service</governor>
+            <dependent idx="14">Internet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">offered</governor>
+            <dependent idx="15">service</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="12">offered</governor>
+            <dependent idx="17">consumers</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">lines</governor>
+            <dependent idx="19">their</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">lines</governor>
+            <dependent idx="20">power</dependent>
+          </dep>
+          <dep type="prep_over">
+            <governor idx="17">consumers</governor>
+            <dependent idx="21">lines</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="prep_in">
+            <governor idx="12">offered</governor>
+            <dependent idx="2">Spain</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="2">Spain</governor>
+            <dependent idx="4">elsewhere</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="12">offered</governor>
+            <dependent idx="4">elsewhere</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="4">elsewhere</governor>
+            <dependent idx="6">Europe</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">companies</governor>
+            <dependent idx="8">utility</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">offered</governor>
+            <dependent idx="9">companies</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">offered</governor>
+            <dependent idx="10">have</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">offered</governor>
+            <dependent idx="11">long</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">service</governor>
+            <dependent idx="13">high-speed</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="15">service</governor>
+            <dependent idx="14">Internet</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">offered</governor>
+            <dependent idx="15">service</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="12">offered</governor>
+            <dependent idx="17">consumers</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="21">lines</governor>
+            <dependent idx="19">their</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">lines</governor>
+            <dependent idx="20">power</dependent>
+          </dep>
+          <dep type="prep_over">
+            <governor idx="17">consumers</governor>
+            <dependent idx="21">lines</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>But</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>American</word>
+            <lemma>american</lemma>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>183</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+          </token>
+          <token id="3">
+            <word>utilities</word>
+            <lemma>utility</lemma>
+            <CharacterOffsetBegin>184</CharacterOffsetBegin>
+            <CharacterOffsetEnd>193</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>194</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>only</word>
+            <lemma>only</lemma>
+            <CharacterOffsetBegin>198</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>now</word>
+            <lemma>now</lemma>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>206</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>PRESENT_REF</NormalizedNER>
+            <Timex tid="t1" type="DATE">PRESENT_REF</Timex>
+          </token>
+          <token id="7">
+            <word>beginning</word>
+            <lemma>begin</lemma>
+            <CharacterOffsetBegin>207</CharacterOffsetBegin>
+            <CharacterOffsetEnd>216</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>217</CharacterOffsetBegin>
+            <CharacterOffsetEnd>219</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>roll</word>
+            <lemma>roll</lemma>
+            <CharacterOffsetBegin>220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>224</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>out</word>
+            <lemma>out</lemma>
+            <CharacterOffsetBegin>225</CharacterOffsetBegin>
+            <CharacterOffsetEnd>228</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>broadband</word>
+            <lemma>broadband</lemma>
+            <CharacterOffsetBegin>229</CharacterOffsetBegin>
+            <CharacterOffsetEnd>238</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>connections</word>
+            <lemma>connection</lemma>
+            <CharacterOffsetBegin>239</CharacterOffsetBegin>
+            <CharacterOffsetEnd>250</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>251</CharacterOffsetBegin>
+            <CharacterOffsetEnd>253</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>their</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>254</CharacterOffsetBegin>
+            <CharacterOffsetEnd>259</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>grid</word>
+            <lemma>grid</lemma>
+            <CharacterOffsetBegin>260</CharacterOffsetBegin>
+            <CharacterOffsetEnd>264</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>264</CharacterOffsetBegin>
+            <CharacterOffsetEnd>265</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC But) (NP (JJ American) (NNS utilities)) (VP (VBP are) (ADVP (RB only)) (VP (ADVP (RB now)) (VBG beginning) (S (VP (TO to) (VP (VB roll) (PRT (RP out)) (NP (NN broadband) (NNS connections)) (PP (IN on) (NP (PRP$ their) (NN grid)))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="cc">
+            <governor idx="7">beginning</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">utilities</governor>
+            <dependent idx="2">American</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">beginning</governor>
+            <dependent idx="3">utilities</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">beginning</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">beginning</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">beginning</governor>
+            <dependent idx="6">now</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">roll</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">beginning</governor>
+            <dependent idx="9">roll</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="9">roll</governor>
+            <dependent idx="10">out</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">connections</governor>
+            <dependent idx="11">broadband</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">roll</governor>
+            <dependent idx="12">connections</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="9">roll</governor>
+            <dependent idx="13">on</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">grid</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">on</governor>
+            <dependent idx="15">grid</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="cc">
+            <governor idx="7">beginning</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">utilities</governor>
+            <dependent idx="2">American</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">beginning</governor>
+            <dependent idx="3">utilities</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">beginning</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">beginning</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">beginning</governor>
+            <dependent idx="6">now</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">roll</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">beginning</governor>
+            <dependent idx="9">roll</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="9">roll</governor>
+            <dependent idx="10">out</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">connections</governor>
+            <dependent idx="11">broadband</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">roll</governor>
+            <dependent idx="12">connections</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">grid</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="9">roll</governor>
+            <dependent idx="15">grid</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="cc">
+            <governor idx="7">beginning</governor>
+            <dependent idx="1">But</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">utilities</governor>
+            <dependent idx="2">American</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">beginning</governor>
+            <dependent idx="3">utilities</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="7">beginning</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">beginning</governor>
+            <dependent idx="5">only</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">beginning</governor>
+            <dependent idx="6">now</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">roll</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="7">beginning</governor>
+            <dependent idx="9">roll</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="9">roll</governor>
+            <dependent idx="10">out</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="12">connections</governor>
+            <dependent idx="11">broadband</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">roll</governor>
+            <dependent idx="12">connections</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="15">grid</governor>
+            <dependent idx="14">their</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="9">roll</governor>
+            <dependent idx="15">grid</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

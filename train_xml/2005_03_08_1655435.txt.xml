@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Japan</word>
+            <lemma>Japan</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="2">
+            <word>looked</word>
+            <lemma>look</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>globalization</word>
+            <lemma>globalization</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>eye</word>
+            <lemma>eye</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>Monday</word>
+            <lemma>Monday</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-WXX-1</NormalizedNER>
+            <Timex tid="t1" type="DATE">XXXX-WXX-1</Timex>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Japan)) (VP (VBD looked) (NP (NN globalization)) (PP (IN in) (NP (DT the) (NN eye))) (PP (IN on) (NP (NNP Monday)))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="2">looked</governor>
+            <dependent idx="1">Japan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">looked</governor>
+            <dependent idx="3">globalization</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">looked</governor>
+            <dependent idx="4">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">eye</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">in</governor>
+            <dependent idx="6">eye</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">looked</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">on</governor>
+            <dependent idx="8">Monday</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="2">looked</governor>
+            <dependent idx="1">Japan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">looked</governor>
+            <dependent idx="3">globalization</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">eye</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">looked</governor>
+            <dependent idx="6">eye</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="2">looked</governor>
+            <dependent idx="8">Monday</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="2">looked</governor>
+            <dependent idx="1">Japan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">looked</governor>
+            <dependent idx="3">globalization</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">eye</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="2">looked</governor>
+            <dependent idx="6">eye</dependent>
+          </dep>
+          <dep type="prep_on">
+            <governor idx="2">looked</governor>
+            <dependent idx="8">Monday</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>On</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>television</word>
+            <lemma>television</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>new</word>
+            <lemma>new</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>chairman</word>
+            <lemma>chairman</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>Sony</word>
+            <lemma>Sony</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="10">
+            <word>Corporation</word>
+            <lemma>Corporation</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>ruddy-faced</word>
+            <lemma>ruddy-faced</lemma>
+            <CharacterOffsetBegin>108</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>Welsh-American</word>
+            <lemma>welsh-american</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="15">
+            <word>wearing</word>
+            <lemma>wear</lemma>
+            <CharacterOffsetBegin>135</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="17">
+            <word>red</word>
+            <lemma>red</lemma>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="18">
+            <word>tartan</word>
+            <lemma>tartan</lemma>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>155</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>tie</word>
+            <lemma>tie</lemma>
+            <CharacterOffsetBegin>156</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>159</CharacterOffsetBegin>
+            <CharacterOffsetEnd>160</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>161</CharacterOffsetBegin>
+            <CharacterOffsetEnd>164</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="22">
+            <word>giving</word>
+            <lemma>give</lemma>
+            <CharacterOffsetBegin>165</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="23">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="24">
+            <word>news</word>
+            <lemma>news</lemma>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>178</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="25">
+            <word>conference</word>
+            <lemma>conference</lemma>
+            <CharacterOffsetBegin>179</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="26">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>192</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="27">
+            <word>English</word>
+            <lemma>English</lemma>
+            <CharacterOffsetBegin>193</CharacterOffsetBegin>
+            <CharacterOffsetEnd>200</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+          </token>
+          <token id="28">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>200</CharacterOffsetBegin>
+            <CharacterOffsetEnd>201</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN On) (NP (NN television))) (, ,) (NP (NP (NP (DT the) (JJ new) (NN chairman)) (PP (IN of) (NP (DT the) (NNP Sony) (NNP Corporation)))) (, ,) (NP (NP (DT a) (JJ ruddy-faced) (JJ Welsh-American)) (VP (VBG wearing) (NP (DT a) (JJ red) (NN tartan) (NN tie)))) (, ,)) (VP (VBD was) (VP (VBG giving) (NP (NP (DT a) (NN news) (NN conference)) (PP (IN in) (NP (NNP English)))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="prep">
+            <governor idx="22">giving</governor>
+            <dependent idx="1">On</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">On</governor>
+            <dependent idx="2">television</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">chairman</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">chairman</governor>
+            <dependent idx="5">new</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">giving</governor>
+            <dependent idx="6">chairman</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="6">chairman</governor>
+            <dependent idx="7">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Corporation</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Corporation</governor>
+            <dependent idx="9">Sony</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="7">of</governor>
+            <dependent idx="10">Corporation</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Welsh-American</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">Welsh-American</governor>
+            <dependent idx="13">ruddy-faced</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">chairman</governor>
+            <dependent idx="14">Welsh-American</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="14">Welsh-American</governor>
+            <dependent idx="15">wearing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">tie</governor>
+            <dependent idx="16">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">tie</governor>
+            <dependent idx="17">red</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">tie</governor>
+            <dependent idx="18">tartan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">wearing</governor>
+            <dependent idx="19">tie</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">giving</governor>
+            <dependent idx="21">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">conference</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="25">conference</governor>
+            <dependent idx="24">news</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">giving</governor>
+            <dependent idx="25">conference</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="25">conference</governor>
+            <dependent idx="26">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="26">in</governor>
+            <dependent idx="27">English</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="prep_on">
+            <governor idx="22">giving</governor>
+            <dependent idx="2">television</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">chairman</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">chairman</governor>
+            <dependent idx="5">new</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">giving</governor>
+            <dependent idx="6">chairman</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Corporation</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Corporation</governor>
+            <dependent idx="9">Sony</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">chairman</governor>
+            <dependent idx="10">Corporation</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Welsh-American</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">Welsh-American</governor>
+            <dependent idx="13">ruddy-faced</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">chairman</governor>
+            <dependent idx="14">Welsh-American</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="14">Welsh-American</governor>
+            <dependent idx="15">wearing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">tie</governor>
+            <dependent idx="16">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">tie</governor>
+            <dependent idx="17">red</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">tie</governor>
+            <dependent idx="18">tartan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">wearing</governor>
+            <dependent idx="19">tie</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">giving</governor>
+            <dependent idx="21">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">conference</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="25">conference</governor>
+            <dependent idx="24">news</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">giving</governor>
+            <dependent idx="25">conference</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="25">conference</governor>
+            <dependent idx="27">English</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="prep_on">
+            <governor idx="22">giving</governor>
+            <dependent idx="2">television</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">chairman</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">chairman</governor>
+            <dependent idx="5">new</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="22">giving</governor>
+            <dependent idx="6">chairman</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">Corporation</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="10">Corporation</governor>
+            <dependent idx="9">Sony</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="6">chairman</governor>
+            <dependent idx="10">Corporation</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="14">Welsh-American</governor>
+            <dependent idx="12">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">Welsh-American</governor>
+            <dependent idx="13">ruddy-faced</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="6">chairman</governor>
+            <dependent idx="14">Welsh-American</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="14">Welsh-American</governor>
+            <dependent idx="15">wearing</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">tie</governor>
+            <dependent idx="16">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="19">tie</governor>
+            <dependent idx="17">red</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">tie</governor>
+            <dependent idx="18">tartan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">wearing</governor>
+            <dependent idx="19">tie</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="22">giving</governor>
+            <dependent idx="21">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">conference</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="25">conference</governor>
+            <dependent idx="24">news</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="22">giving</governor>
+            <dependent idx="25">conference</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="25">conference</governor>
+            <dependent idx="27">English</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>Japan</word>
+            <lemma>Japan</lemma>
+            <CharacterOffsetBegin>202</CharacterOffsetBegin>
+            <CharacterOffsetEnd>207</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="2">
+            <word>did</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>208</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>211</CharacterOffsetBegin>
+            <CharacterOffsetEnd>214</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>blink</word>
+            <lemma>blink</lemma>
+            <CharacterOffsetBegin>215</CharacterOffsetBegin>
+            <CharacterOffsetEnd>220</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>220</CharacterOffsetBegin>
+            <CharacterOffsetEnd>221</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Japan)) (VP (VBD did) (RB n't) (VP (VB blink))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">blink</governor>
+            <dependent idx="1">Japan</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">blink</governor>
+            <dependent idx="2">did</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">blink</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">blink</governor>
+            <dependent idx="1">Japan</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">blink</governor>
+            <dependent idx="2">did</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">blink</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">blink</governor>
+            <dependent idx="1">Japan</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">blink</governor>
+            <dependent idx="2">did</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">blink</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

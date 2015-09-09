@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Calling</word>
+            <lemma>call</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>411</word>
+            <lemma>411</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>411.0</NormalizedNER>
+          </token>
+          <token id="3">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>directory</word>
+            <lemma>directory</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>assistance</word>
+            <lemma>assistance</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>can</word>
+            <lemma>can</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>be</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>maddeningly</word>
+            <lemma>maddeningly</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>expensive</word>
+            <lemma>expensive</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBG Calling) (NP (CD 411)) (PP (IN for) (NP (NN directory) (NN assistance))))) (VP (MD can) (VP (VB be) (ADJP (RB maddeningly) (JJ expensive)))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="csubj">
+            <governor idx="9">expensive</governor>
+            <dependent idx="1">Calling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Calling</governor>
+            <dependent idx="2">411</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Calling</governor>
+            <dependent idx="3">for</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">assistance</governor>
+            <dependent idx="4">directory</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">for</governor>
+            <dependent idx="5">assistance</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">expensive</governor>
+            <dependent idx="6">can</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">expensive</governor>
+            <dependent idx="7">be</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">expensive</governor>
+            <dependent idx="8">maddeningly</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="csubj">
+            <governor idx="9">expensive</governor>
+            <dependent idx="1">Calling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Calling</governor>
+            <dependent idx="2">411</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">assistance</governor>
+            <dependent idx="4">directory</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="1">Calling</governor>
+            <dependent idx="5">assistance</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">expensive</governor>
+            <dependent idx="6">can</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">expensive</governor>
+            <dependent idx="7">be</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">expensive</governor>
+            <dependent idx="8">maddeningly</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="csubj">
+            <governor idx="9">expensive</governor>
+            <dependent idx="1">Calling</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Calling</governor>
+            <dependent idx="2">411</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">assistance</governor>
+            <dependent idx="4">directory</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="1">Calling</governor>
+            <dependent idx="5">assistance</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">expensive</governor>
+            <dependent idx="6">can</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="9">expensive</governor>
+            <dependent idx="7">be</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="9">expensive</governor>
+            <dependent idx="8">maddeningly</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Carriers</word>
+            <lemma>carrier</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>like</word>
+            <lemma>like</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>Sprint</word>
+            <lemma>Sprint</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="4">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>Verizon</word>
+            <lemma>Verizon</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="6">
+            <word>charge</word>
+            <lemma>charge</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>$</word>
+            <lemma>$</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>$</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>&gt;$1.0</NormalizedNER>
+          </token>
+          <token id="10">
+            <word>1</word>
+            <lemma>1</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>119</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>&gt;$1.0</NormalizedNER>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>120</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>sometimes</word>
+            <lemma>sometimes</lemma>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>133</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>136</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>much</word>
+            <lemma>much</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>$</word>
+            <lemma>$</lemma>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>146</CharacterOffsetEnd>
+            <POS>$</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>&lt;=$2.0</NormalizedNER>
+          </token>
+          <token id="17">
+            <word>2</word>
+            <lemma>2</lemma>
+            <CharacterOffsetBegin>146</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>&lt;=$2.0</NormalizedNER>
+          </token>
+          <token id="18">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>call</word>
+            <lemma>call</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="22">
+            <word>cellphone</word>
+            <lemma>cellphone</lemma>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>171</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="23">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>172</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNS Carriers)) (PP (IN like) (NP (NNP Sprint) (CC and) (NNP Verizon)))) (VP (VBP charge) (NP (NP (QP (JJR more) (IN than) ($ $) (CD 1))) (CC and) (NP (RB sometimes) (QP (RB as) (JJ much) (IN as) ($ $) (CD 2)))) (NP-TMP (NP (DT a) (NN call)) (PP (IN from) (NP (DT a) (NN cellphone))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="6">charge</governor>
+            <dependent idx="1">Carriers</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Carriers</governor>
+            <dependent idx="2">like</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">like</governor>
+            <dependent idx="3">Sprint</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">Sprint</governor>
+            <dependent idx="4">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">Sprint</governor>
+            <dependent idx="5">Verizon</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="9">$</governor>
+            <dependent idx="7">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="9">$</governor>
+            <dependent idx="8">than</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">charge</governor>
+            <dependent idx="9">$</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="9">$</governor>
+            <dependent idx="10">1</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">$</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">$</governor>
+            <dependent idx="12">sometimes</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">$</governor>
+            <dependent idx="13">as</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">$</governor>
+            <dependent idx="14">much</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">$</governor>
+            <dependent idx="15">as</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">$</governor>
+            <dependent idx="16">$</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">$</governor>
+            <dependent idx="17">2</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">call</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">charge</governor>
+            <dependent idx="19">call</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">call</governor>
+            <dependent idx="20">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">cellphone</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">from</governor>
+            <dependent idx="22">cellphone</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="6">charge</governor>
+            <dependent idx="1">Carriers</dependent>
+          </dep>
+          <dep type="prep_like">
+            <governor idx="1">Carriers</governor>
+            <dependent idx="3">Sprint</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">Sprint</governor>
+            <dependent idx="5">Verizon</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="9">$</governor>
+            <dependent idx="7">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="9">$</governor>
+            <dependent idx="8">than</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">charge</governor>
+            <dependent idx="9">$</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="9">$</governor>
+            <dependent idx="10">1</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">$</governor>
+            <dependent idx="12">sometimes</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">$</governor>
+            <dependent idx="13">as</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">$</governor>
+            <dependent idx="14">much</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">$</governor>
+            <dependent idx="15">as</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">$</governor>
+            <dependent idx="16">$</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">$</governor>
+            <dependent idx="17">2</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">call</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">charge</governor>
+            <dependent idx="19">call</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">cellphone</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="19">call</governor>
+            <dependent idx="22">cellphone</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="6">charge</governor>
+            <dependent idx="1">Carriers</dependent>
+          </dep>
+          <dep type="prep_like">
+            <governor idx="1">Carriers</governor>
+            <dependent idx="3">Sprint</dependent>
+          </dep>
+          <dep type="prep_like">
+            <governor idx="1">Carriers</governor>
+            <dependent idx="5">Verizon</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="3">Sprint</governor>
+            <dependent idx="5">Verizon</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="9">$</governor>
+            <dependent idx="7">more</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="9">$</governor>
+            <dependent idx="8">than</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">charge</governor>
+            <dependent idx="9">$</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="9">$</governor>
+            <dependent idx="10">1</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="16">$</governor>
+            <dependent idx="12">sometimes</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">$</governor>
+            <dependent idx="13">as</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">$</governor>
+            <dependent idx="14">much</dependent>
+          </dep>
+          <dep type="quantmod">
+            <governor idx="16">$</governor>
+            <dependent idx="15">as</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">charge</governor>
+            <dependent idx="16">$</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">$</governor>
+            <dependent idx="16">$</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="16">$</governor>
+            <dependent idx="17">2</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">call</governor>
+            <dependent idx="18">a</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="6">charge</governor>
+            <dependent idx="19">call</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="22">cellphone</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="19">call</governor>
+            <dependent idx="22">cellphone</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>172</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (NP (. .))) </parse>
+        <basic-dependencies/>
+        <collapsed-dependencies/>
+        <collapsed-ccprocessed-dependencies/>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>And</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>177</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>much</word>
+            <lemma>much</lemma>
+            <CharacterOffsetBegin>178</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>190</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>191</CharacterOffsetBegin>
+            <CharacterOffsetEnd>193</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>profit</word>
+            <lemma>profit</lemma>
+            <CharacterOffsetBegin>194</CharacterOffsetBegin>
+            <CharacterOffsetEnd>200</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>200</CharacterOffsetBegin>
+            <CharacterOffsetEnd>201</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (CC And) (NP (NP (RB much)) (PP (IN of) (NP (DT that)))) (VP (VBZ is) (NP (NN profit))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="cc">
+            <governor idx="6">profit</governor>
+            <dependent idx="1">And</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">profit</governor>
+            <dependent idx="2">much</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">much</governor>
+            <dependent idx="3">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">of</governor>
+            <dependent idx="4">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">profit</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="cc">
+            <governor idx="6">profit</governor>
+            <dependent idx="1">And</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">profit</governor>
+            <dependent idx="2">much</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">much</governor>
+            <dependent idx="4">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">profit</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="cc">
+            <governor idx="6">profit</governor>
+            <dependent idx="1">And</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">profit</governor>
+            <dependent idx="2">much</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="2">much</governor>
+            <dependent idx="4">that</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="6">profit</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="5">
+        <tokens>
+          <token id="1">
+            <word>Directory</word>
+            <lemma>Directory</lemma>
+            <CharacterOffsetBegin>202</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>assistance</word>
+            <lemma>assistance</lemma>
+            <CharacterOffsetBegin>212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>222</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>223</CharacterOffsetBegin>
+            <CharacterOffsetEnd>225</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>truly</word>
+            <lemma>truly</lemma>
+            <CharacterOffsetBegin>225</CharacterOffsetBegin>
+            <CharacterOffsetEnd>230</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>231</CharacterOffsetBegin>
+            <CharacterOffsetEnd>233</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>234</CharacterOffsetBegin>
+            <CharacterOffsetEnd>235</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>cash</word>
+            <lemma>cash</lemma>
+            <CharacterOffsetBegin>236</CharacterOffsetBegin>
+            <CharacterOffsetEnd>240</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>cow</word>
+            <lemma>cow</lemma>
+            <CharacterOffsetBegin>241</CharacterOffsetBegin>
+            <CharacterOffsetEnd>244</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>244</CharacterOffsetBegin>
+            <CharacterOffsetEnd>245</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>''</word>
+            <lemma>''</lemma>
+            <CharacterOffsetBegin>245</CharacterOffsetBegin>
+            <CharacterOffsetEnd>247</CharacterOffsetEnd>
+            <POS>''</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>said</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>248</CharacterOffsetBegin>
+            <CharacterOffsetEnd>252</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>Saroja</word>
+            <lemma>Saroja</lemma>
+            <CharacterOffsetBegin>253</CharacterOffsetBegin>
+            <CharacterOffsetEnd>259</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+          </token>
+          <token id="13">
+            <word>Girishankar</word>
+            <lemma>Girishankar</lemma>
+            <CharacterOffsetBegin>260</CharacterOffsetBegin>
+            <CharacterOffsetEnd>271</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+          </token>
+          <token id="14">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>271</CharacterOffsetBegin>
+            <CharacterOffsetEnd>272</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>273</CharacterOffsetBegin>
+            <CharacterOffsetEnd>274</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>vice</word>
+            <lemma>vice</lemma>
+            <CharacterOffsetBegin>275</CharacterOffsetBegin>
+            <CharacterOffsetEnd>279</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="17">
+            <word>president</word>
+            <lemma>president</lemma>
+            <CharacterOffsetBegin>280</CharacterOffsetBegin>
+            <CharacterOffsetEnd>289</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="18">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>290</CharacterOffsetBegin>
+            <CharacterOffsetEnd>292</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>293</CharacterOffsetBegin>
+            <CharacterOffsetEnd>296</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>Pelorus</word>
+            <lemma>Pelorus</lemma>
+            <CharacterOffsetBegin>297</CharacterOffsetBegin>
+            <CharacterOffsetEnd>304</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="21">
+            <word>Group</word>
+            <lemma>Group</lemma>
+            <CharacterOffsetBegin>305</CharacterOffsetBegin>
+            <CharacterOffsetEnd>310</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="22">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>310</CharacterOffsetBegin>
+            <CharacterOffsetEnd>311</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="23">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>312</CharacterOffsetBegin>
+            <CharacterOffsetEnd>313</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="24">
+            <word>telecommunications</word>
+            <lemma>telecommunications</lemma>
+            <CharacterOffsetBegin>314</CharacterOffsetBegin>
+            <CharacterOffsetEnd>332</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="25">
+            <word>market</word>
+            <lemma>market</lemma>
+            <CharacterOffsetBegin>333</CharacterOffsetBegin>
+            <CharacterOffsetEnd>339</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="26">
+            <word>research</word>
+            <lemma>research</lemma>
+            <CharacterOffsetBegin>340</CharacterOffsetBegin>
+            <CharacterOffsetEnd>348</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="27">
+            <word>firm</word>
+            <lemma>firm</lemma>
+            <CharacterOffsetBegin>349</CharacterOffsetBegin>
+            <CharacterOffsetEnd>353</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="28">
+            <word>based</word>
+            <lemma>base</lemma>
+            <CharacterOffsetBegin>354</CharacterOffsetBegin>
+            <CharacterOffsetEnd>359</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="29">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>360</CharacterOffsetBegin>
+            <CharacterOffsetEnd>362</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="30">
+            <word>Raritan</word>
+            <lemma>Raritan</lemma>
+            <CharacterOffsetBegin>363</CharacterOffsetBegin>
+            <CharacterOffsetEnd>370</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="31">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>370</CharacterOffsetBegin>
+            <CharacterOffsetEnd>371</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="32">
+            <word>N.J.</word>
+            <lemma>N.J.</lemma>
+            <CharacterOffsetBegin>372</CharacterOffsetBegin>
+            <CharacterOffsetEnd>375</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="33">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>375</CharacterOffsetBegin>
+            <CharacterOffsetEnd>376</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (SINV (S (NP (NP (NNP Directory)) (NP (NN assistance) ('' ''))) (ADVP (RB truly)) (VP (VBZ is) (NP (DT a) (NN cash) (NN cow)))) (, ,) ('' '') (VP (VBD said)) (NP (NP (NNP Saroja) (NNP Girishankar)) (, ,) (NP (NP (DT a) (NN vice) (NN president)) (PP (IN at) (NP (NP (DT the) (NNP Pelorus) (NNP Group)) (, ,) (NP (NP (DT a) (NN telecommunications) (NN market) (NN research) (NN firm)) (VP (VBN based) (PP (IN in) (NP (NNP Raritan) (, ,) (NNP N.J.))))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="8">cow</governor>
+            <dependent idx="1">Directory</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Directory</governor>
+            <dependent idx="2">assistance</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">cow</governor>
+            <dependent idx="4">truly</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">cow</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">cow</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">cow</governor>
+            <dependent idx="7">cash</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">said</governor>
+            <dependent idx="8">cow</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Girishankar</governor>
+            <dependent idx="12">Saroja</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">said</governor>
+            <dependent idx="13">Girishankar</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">president</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">president</governor>
+            <dependent idx="16">vice</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="13">Girishankar</governor>
+            <dependent idx="17">president</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="17">president</governor>
+            <dependent idx="18">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Group</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Group</governor>
+            <dependent idx="20">Pelorus</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">at</governor>
+            <dependent idx="21">Group</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">firm</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="27">firm</governor>
+            <dependent idx="24">telecommunications</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="27">firm</governor>
+            <dependent idx="25">market</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="27">firm</governor>
+            <dependent idx="26">research</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="21">Group</governor>
+            <dependent idx="27">firm</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="27">firm</governor>
+            <dependent idx="28">based</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="28">based</governor>
+            <dependent idx="29">in</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="32">N.J.</governor>
+            <dependent idx="30">Raritan</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="29">in</governor>
+            <dependent idx="32">N.J.</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="8">cow</governor>
+            <dependent idx="1">Directory</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Directory</governor>
+            <dependent idx="2">assistance</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">cow</governor>
+            <dependent idx="4">truly</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">cow</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">cow</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">cow</governor>
+            <dependent idx="7">cash</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">said</governor>
+            <dependent idx="8">cow</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Girishankar</governor>
+            <dependent idx="12">Saroja</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">said</governor>
+            <dependent idx="13">Girishankar</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">president</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">president</governor>
+            <dependent idx="16">vice</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="13">Girishankar</governor>
+            <dependent idx="17">president</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Group</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Group</governor>
+            <dependent idx="20">Pelorus</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="17">president</governor>
+            <dependent idx="21">Group</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">firm</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="27">firm</governor>
+            <dependent idx="24">telecommunications</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="27">firm</governor>
+            <dependent idx="25">market</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="27">firm</governor>
+            <dependent idx="26">research</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="21">Group</governor>
+            <dependent idx="27">firm</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="27">firm</governor>
+            <dependent idx="28">based</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="32">N.J.</governor>
+            <dependent idx="30">Raritan</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="28">based</governor>
+            <dependent idx="32">N.J.</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="8">cow</governor>
+            <dependent idx="1">Directory</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="1">Directory</governor>
+            <dependent idx="2">assistance</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">cow</governor>
+            <dependent idx="4">truly</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">cow</governor>
+            <dependent idx="5">is</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">cow</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="8">cow</governor>
+            <dependent idx="7">cash</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="11">said</governor>
+            <dependent idx="8">cow</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">Girishankar</governor>
+            <dependent idx="12">Saroja</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">said</governor>
+            <dependent idx="13">Girishankar</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">president</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">president</governor>
+            <dependent idx="16">vice</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="13">Girishankar</governor>
+            <dependent idx="17">president</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">Group</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="21">Group</governor>
+            <dependent idx="20">Pelorus</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="17">president</governor>
+            <dependent idx="21">Group</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">firm</governor>
+            <dependent idx="23">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="27">firm</governor>
+            <dependent idx="24">telecommunications</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="27">firm</governor>
+            <dependent idx="25">market</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="27">firm</governor>
+            <dependent idx="26">research</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="21">Group</governor>
+            <dependent idx="27">firm</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="27">firm</governor>
+            <dependent idx="28">based</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="32">N.J.</governor>
+            <dependent idx="30">Raritan</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="28">based</governor>
+            <dependent idx="32">N.J.</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="6">
+        <tokens>
+          <token id="1">
+            <word>She</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>377</CharacterOffsetBegin>
+            <CharacterOffsetEnd>380</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>381</CharacterOffsetBegin>
+            <CharacterOffsetEnd>384</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>other</word>
+            <lemma>other</lemma>
+            <CharacterOffsetBegin>385</CharacterOffsetBegin>
+            <CharacterOffsetEnd>390</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>industry</word>
+            <lemma>industry</lemma>
+            <CharacterOffsetBegin>391</CharacterOffsetBegin>
+            <CharacterOffsetEnd>399</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>analysts</word>
+            <lemma>analyst</lemma>
+            <CharacterOffsetBegin>400</CharacterOffsetBegin>
+            <CharacterOffsetEnd>408</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>said</word>
+            <lemma>say</lemma>
+            <CharacterOffsetBegin>409</CharacterOffsetBegin>
+            <CharacterOffsetEnd>413</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>414</CharacterOffsetBegin>
+            <CharacterOffsetEnd>418</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>419</CharacterOffsetBegin>
+            <CharacterOffsetEnd>422</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>carriers</word>
+            <lemma>carrier</lemma>
+            <CharacterOffsetBegin>423</CharacterOffsetBegin>
+            <CharacterOffsetEnd>431</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>paid</word>
+            <lemma>pay</lemma>
+            <CharacterOffsetBegin>432</CharacterOffsetBegin>
+            <CharacterOffsetEnd>436</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>wholesalers</word>
+            <lemma>wholesaler</lemma>
+            <CharacterOffsetBegin>437</CharacterOffsetBegin>
+            <CharacterOffsetEnd>448</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>--</word>
+            <lemma>--</lemma>
+            <CharacterOffsetBegin>449</CharacterOffsetBegin>
+            <CharacterOffsetEnd>451</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>who</word>
+            <lemma>who</lemma>
+            <CharacterOffsetBegin>452</CharacterOffsetBegin>
+            <CharacterOffsetEnd>455</CharacterOffsetEnd>
+            <POS>WP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>actually</word>
+            <lemma>actually</lemma>
+            <CharacterOffsetBegin>456</CharacterOffsetBegin>
+            <CharacterOffsetEnd>464</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>provide</word>
+            <lemma>provide</lemma>
+            <CharacterOffsetBegin>465</CharacterOffsetBegin>
+            <CharacterOffsetEnd>472</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>473</CharacterOffsetBegin>
+            <CharacterOffsetEnd>476</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="17">
+            <word>411</word>
+            <lemma>411</lemma>
+            <CharacterOffsetBegin>477</CharacterOffsetBegin>
+            <CharacterOffsetEnd>480</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>411.0</NormalizedNER>
+          </token>
+          <token id="18">
+            <word>service</word>
+            <lemma>service</lemma>
+            <CharacterOffsetBegin>481</CharacterOffsetBegin>
+            <CharacterOffsetEnd>488</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>--</word>
+            <lemma>--</lemma>
+            <CharacterOffsetBegin>489</CharacterOffsetBegin>
+            <CharacterOffsetEnd>491</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>492</CharacterOffsetBegin>
+            <CharacterOffsetEnd>496</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>25</word>
+            <lemma>25</lemma>
+            <CharacterOffsetBegin>497</CharacterOffsetBegin>
+            <CharacterOffsetEnd>499</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>25.0</NormalizedNER>
+          </token>
+          <token id="22">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>500</CharacterOffsetBegin>
+            <CharacterOffsetEnd>502</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+          </token>
+          <token id="23">
+            <word>50</word>
+            <lemma>50</lemma>
+            <CharacterOffsetBegin>503</CharacterOffsetBegin>
+            <CharacterOffsetEnd>505</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.5</NormalizedNER>
+          </token>
+          <token id="24">
+            <word>cents</word>
+            <lemma>cent</lemma>
+            <CharacterOffsetBegin>506</CharacterOffsetBegin>
+            <CharacterOffsetEnd>511</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>MONEY</NER>
+            <NormalizedNER>$0.5</NormalizedNER>
+          </token>
+          <token id="25">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>512</CharacterOffsetBegin>
+            <CharacterOffsetEnd>513</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="26">
+            <word>call</word>
+            <lemma>call</lemma>
+            <CharacterOffsetBegin>514</CharacterOffsetBegin>
+            <CharacterOffsetEnd>518</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="27">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>518</CharacterOffsetBegin>
+            <CharacterOffsetEnd>519</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (PRP She)) (CC and) (NP (JJ other) (NN industry) (NNS analysts))) (VP (VBD said) (SBAR (IN that) (S (NP (DT the) (NNS carriers)) (VP (VBD paid) (NP (NP (NNS wholesalers)) (PRN (: --) (SBAR (WHNP (WP who)) (S (ADVP (RB actually)) (VP (VBP provide) (NP (DT the) (CD 411) (NN service))))) (: --)) (PP (IN from) (NP (QP (CD 25) (TO to) (CD 50) (NNS cents)) (DT a) (NN call)))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="6">said</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="1">She</governor>
+            <dependent idx="2">and</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">analysts</governor>
+            <dependent idx="3">other</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">analysts</governor>
+            <dependent idx="4">industry</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="1">She</governor>
+            <dependent idx="5">analysts</dependent>
+          </dep>
+          <dep type="complm">
+            <governor idx="10">paid</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">carriers</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">paid</governor>
+            <dependent idx="9">carriers</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">said</governor>
+            <dependent idx="10">paid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">paid</governor>
+            <dependent idx="11">wholesalers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">provide</governor>
+            <dependent idx="13">who</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">provide</governor>
+            <dependent idx="14">actually</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">wholesalers</governor>
+            <dependent idx="15">provide</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">service</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">service</governor>
+            <dependent idx="17">411</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">provide</governor>
+            <dependent idx="18">service</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">wholesalers</governor>
+            <dependent idx="20">from</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="24">cents</governor>
+            <dependent idx="21">25</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="24">cents</governor>
+            <dependent idx="22">to</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="24">cents</governor>
+            <dependent idx="23">50</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="26">call</governor>
+            <dependent idx="24">cents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">call</governor>
+            <dependent idx="25">a</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">from</governor>
+            <dependent idx="26">call</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="6">said</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">analysts</governor>
+            <dependent idx="3">other</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">analysts</governor>
+            <dependent idx="4">industry</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">She</governor>
+            <dependent idx="5">analysts</dependent>
+          </dep>
+          <dep type="complm">
+            <governor idx="10">paid</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">carriers</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">paid</governor>
+            <dependent idx="9">carriers</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">said</governor>
+            <dependent idx="10">paid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">paid</governor>
+            <dependent idx="11">wholesalers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">provide</governor>
+            <dependent idx="13">who</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">provide</governor>
+            <dependent idx="14">actually</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">wholesalers</governor>
+            <dependent idx="15">provide</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">service</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">service</governor>
+            <dependent idx="17">411</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">provide</governor>
+            <dependent idx="18">service</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="24">cents</governor>
+            <dependent idx="21">25</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="24">cents</governor>
+            <dependent idx="22">to</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="24">cents</governor>
+            <dependent idx="23">50</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="26">call</governor>
+            <dependent idx="24">cents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">call</governor>
+            <dependent idx="25">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="11">wholesalers</governor>
+            <dependent idx="26">call</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="6">said</governor>
+            <dependent idx="1">She</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">analysts</governor>
+            <dependent idx="3">other</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="5">analysts</governor>
+            <dependent idx="4">industry</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="1">She</governor>
+            <dependent idx="5">analysts</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">said</governor>
+            <dependent idx="5">analysts</dependent>
+          </dep>
+          <dep type="complm">
+            <governor idx="10">paid</governor>
+            <dependent idx="7">that</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">carriers</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">paid</governor>
+            <dependent idx="9">carriers</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="6">said</governor>
+            <dependent idx="10">paid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">paid</governor>
+            <dependent idx="11">wholesalers</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">provide</governor>
+            <dependent idx="13">who</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">provide</governor>
+            <dependent idx="14">actually</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">wholesalers</governor>
+            <dependent idx="15">provide</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">service</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="18">service</governor>
+            <dependent idx="17">411</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="15">provide</governor>
+            <dependent idx="18">service</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="24">cents</governor>
+            <dependent idx="21">25</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="24">cents</governor>
+            <dependent idx="22">to</dependent>
+          </dep>
+          <dep type="number">
+            <governor idx="24">cents</governor>
+            <dependent idx="23">50</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="26">call</governor>
+            <dependent idx="24">cents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="26">call</governor>
+            <dependent idx="25">a</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="11">wholesalers</governor>
+            <dependent idx="26">call</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

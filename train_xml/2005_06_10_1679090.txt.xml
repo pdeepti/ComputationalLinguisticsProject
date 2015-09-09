@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Hollywood</word>
+            <lemma>Hollywood</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="2">
+            <word>does</word>
+            <lemma>do</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>not</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>like</word>
+            <lemma>like</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>when</word>
+            <lemma>when</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>WRB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>outsiders</word>
+            <lemma>outsider</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>play</word>
+            <lemma>play</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>certain</word>
+            <lemma>certain</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>games</word>
+            <lemma>game</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Hollywood)) (VP (VBZ does) (RB not) (VP (VB like) (NP (PRP it)) (SBAR (WHADVP (WRB when)) (S (NP (NNS outsiders)) (VP (VBP play) (NP (JJ certain) (NNS games))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">like</governor>
+            <dependent idx="1">Hollywood</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">like</governor>
+            <dependent idx="2">does</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">like</governor>
+            <dependent idx="3">not</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">like</governor>
+            <dependent idx="5">it</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">play</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">play</governor>
+            <dependent idx="7">outsiders</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">like</governor>
+            <dependent idx="8">play</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">games</governor>
+            <dependent idx="9">certain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">play</governor>
+            <dependent idx="10">games</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">like</governor>
+            <dependent idx="1">Hollywood</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">like</governor>
+            <dependent idx="2">does</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">like</governor>
+            <dependent idx="3">not</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">like</governor>
+            <dependent idx="5">it</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">play</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">play</governor>
+            <dependent idx="7">outsiders</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">like</governor>
+            <dependent idx="8">play</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">games</governor>
+            <dependent idx="9">certain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">play</governor>
+            <dependent idx="10">games</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">like</governor>
+            <dependent idx="1">Hollywood</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">like</governor>
+            <dependent idx="2">does</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">like</governor>
+            <dependent idx="3">not</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">like</governor>
+            <dependent idx="5">it</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">play</governor>
+            <dependent idx="6">when</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">play</governor>
+            <dependent idx="7">outsiders</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">like</governor>
+            <dependent idx="8">play</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">games</governor>
+            <dependent idx="9">certain</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">play</governor>
+            <dependent idx="10">games</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>That</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>message</word>
+            <lemma>message</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>sent</word>
+            <lemma>send</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>this</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1W</NormalizedNER>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="7">
+            <word>week</word>
+            <lemma>week</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1W</NormalizedNER>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="8">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>Microsoft</word>
+            <lemma>Microsoft</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>114</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>its</word>
+            <lemma>its</lemma>
+            <CharacterOffsetBegin>115</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>agents</word>
+            <lemma>agent</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>128</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>129</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>Creative</word>
+            <lemma>Creative</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>141</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="16">
+            <word>Artists</word>
+            <lemma>Artists</lemma>
+            <CharacterOffsetBegin>142</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="17">
+            <word>Agency</word>
+            <lemma>Agency</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>156</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="18">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>157</CharacterOffsetBegin>
+            <CharacterOffsetEnd>159</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>movie</word>
+            <lemma>movie</lemma>
+            <CharacterOffsetBegin>160</CharacterOffsetBegin>
+            <CharacterOffsetEnd>165</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>studios</word>
+            <lemma>studio</lemma>
+            <CharacterOffsetBegin>166</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>outraged</word>
+            <lemma>outrage</lemma>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>182</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="22">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>183</CharacterOffsetBegin>
+            <CharacterOffsetEnd>185</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="23">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>186</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="24">
+            <word>aggressive</word>
+            <lemma>aggressive</lemma>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>200</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="25">
+            <word>proposal</word>
+            <lemma>proposal</lemma>
+            <CharacterOffsetBegin>201</CharacterOffsetBegin>
+            <CharacterOffsetEnd>209</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="26">
+            <word>being</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>210</CharacterOffsetBegin>
+            <CharacterOffsetEnd>215</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="27">
+            <word>shopped</word>
+            <lemma>shop</lemma>
+            <CharacterOffsetBegin>216</CharacterOffsetBegin>
+            <CharacterOffsetEnd>223</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="28">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>227</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="29">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>228</CharacterOffsetBegin>
+            <CharacterOffsetEnd>231</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="30">
+            <word>film</word>
+            <lemma>film</lemma>
+            <CharacterOffsetBegin>232</CharacterOffsetBegin>
+            <CharacterOffsetEnd>236</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="31">
+            <word>version</word>
+            <lemma>version</lemma>
+            <CharacterOffsetBegin>237</CharacterOffsetBegin>
+            <CharacterOffsetEnd>244</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="32">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>245</CharacterOffsetBegin>
+            <CharacterOffsetEnd>247</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="33">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>248</CharacterOffsetBegin>
+            <CharacterOffsetEnd>251</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="34">
+            <word>popular</word>
+            <lemma>popular</lemma>
+            <CharacterOffsetBegin>252</CharacterOffsetBegin>
+            <CharacterOffsetEnd>259</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="35">
+            <word>Xbox</word>
+            <lemma>Xbox</lemma>
+            <CharacterOffsetBegin>260</CharacterOffsetBegin>
+            <CharacterOffsetEnd>264</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+          </token>
+          <token id="36">
+            <word>video</word>
+            <lemma>video</lemma>
+            <CharacterOffsetBegin>265</CharacterOffsetBegin>
+            <CharacterOffsetEnd>270</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="37">
+            <word>game</word>
+            <lemma>game</lemma>
+            <CharacterOffsetBegin>271</CharacterOffsetBegin>
+            <CharacterOffsetEnd>275</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="38">
+            <word>Halo</word>
+            <lemma>Halo</lemma>
+            <CharacterOffsetBegin>276</CharacterOffsetBegin>
+            <CharacterOffsetEnd>280</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="39">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>280</CharacterOffsetBegin>
+            <CharacterOffsetEnd>281</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (SINV (S (NP (DT That)) (VP (VBD was) (NP (NP (DT the) (NN message)) (SBAR (S (VP (VBD sent) (NP-TMP (DT this) (NN week)) (PP (TO to) (NP (NP (NNP Microsoft)) (CC and) (NP (PRP$ its) (NNS agents)))) (PP (IN at) (NP (DT the) (NNP Creative) (NNP Artists) (NNP Agency))) (PP (IN by) (NP (NN movie) (NNS studios))))))))) (VP (VBD outraged) (PP (IN at) (NP (NP (DT the) (JJ aggressive) (NN proposal)) (VP (VBG being) (VP (VBN shopped) (PP (IN for) (NP (NP (DT the) (NN film) (NN version)) (PP (IN of) (NP (DT the) (JJ popular) (NNP Xbox) (NN video) (NN game)))))))))) (NP (NNP Halo)) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">message</governor>
+            <dependent idx="1">That</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">message</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">message</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">outraged</governor>
+            <dependent idx="4">message</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">message</governor>
+            <dependent idx="5">sent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">week</governor>
+            <dependent idx="6">this</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="5">sent</governor>
+            <dependent idx="7">week</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">sent</governor>
+            <dependent idx="8">to</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="8">to</governor>
+            <dependent idx="9">Microsoft</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">Microsoft</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">agents</governor>
+            <dependent idx="11">its</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">Microsoft</governor>
+            <dependent idx="12">agents</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">sent</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Agency</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Agency</governor>
+            <dependent idx="15">Creative</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Agency</governor>
+            <dependent idx="16">Artists</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="13">at</governor>
+            <dependent idx="17">Agency</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="5">sent</governor>
+            <dependent idx="18">by</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">studios</governor>
+            <dependent idx="19">movie</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="18">by</governor>
+            <dependent idx="20">studios</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="21">outraged</governor>
+            <dependent idx="22">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">proposal</governor>
+            <dependent idx="23">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">proposal</governor>
+            <dependent idx="24">aggressive</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="22">at</governor>
+            <dependent idx="25">proposal</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="27">shopped</governor>
+            <dependent idx="26">being</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="25">proposal</governor>
+            <dependent idx="27">shopped</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="27">shopped</governor>
+            <dependent idx="28">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">version</governor>
+            <dependent idx="29">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="31">version</governor>
+            <dependent idx="30">film</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="28">for</governor>
+            <dependent idx="31">version</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="31">version</governor>
+            <dependent idx="32">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="37">game</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="37">game</governor>
+            <dependent idx="34">popular</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">game</governor>
+            <dependent idx="35">Xbox</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">game</governor>
+            <dependent idx="36">video</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="32">of</governor>
+            <dependent idx="37">game</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">outraged</governor>
+            <dependent idx="38">Halo</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">message</governor>
+            <dependent idx="1">That</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">message</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">message</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">outraged</governor>
+            <dependent idx="4">message</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">message</governor>
+            <dependent idx="5">sent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">week</governor>
+            <dependent idx="6">this</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="5">sent</governor>
+            <dependent idx="7">week</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">sent</governor>
+            <dependent idx="9">Microsoft</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">agents</governor>
+            <dependent idx="11">its</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Microsoft</governor>
+            <dependent idx="12">agents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Agency</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Agency</governor>
+            <dependent idx="15">Creative</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Agency</governor>
+            <dependent idx="16">Artists</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="5">sent</governor>
+            <dependent idx="17">Agency</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">studios</governor>
+            <dependent idx="19">movie</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="5">sent</governor>
+            <dependent idx="20">studios</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">proposal</governor>
+            <dependent idx="23">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">proposal</governor>
+            <dependent idx="24">aggressive</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="21">outraged</governor>
+            <dependent idx="25">proposal</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="27">shopped</governor>
+            <dependent idx="26">being</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="25">proposal</governor>
+            <dependent idx="27">shopped</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">version</governor>
+            <dependent idx="29">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="31">version</governor>
+            <dependent idx="30">film</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="27">shopped</governor>
+            <dependent idx="31">version</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="37">game</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="37">game</governor>
+            <dependent idx="34">popular</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">game</governor>
+            <dependent idx="35">Xbox</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">game</governor>
+            <dependent idx="36">video</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="31">version</governor>
+            <dependent idx="37">game</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">outraged</governor>
+            <dependent idx="38">Halo</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">message</governor>
+            <dependent idx="1">That</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="4">message</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">message</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="21">outraged</governor>
+            <dependent idx="4">message</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="4">message</governor>
+            <dependent idx="5">sent</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">week</governor>
+            <dependent idx="6">this</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="5">sent</governor>
+            <dependent idx="7">week</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">sent</governor>
+            <dependent idx="9">Microsoft</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">agents</governor>
+            <dependent idx="11">its</dependent>
+          </dep>
+          <dep type="prep_to">
+            <governor idx="5">sent</governor>
+            <dependent idx="12">agents</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">Microsoft</governor>
+            <dependent idx="12">agents</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">Agency</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Agency</governor>
+            <dependent idx="15">Creative</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="17">Agency</governor>
+            <dependent idx="16">Artists</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="5">sent</governor>
+            <dependent idx="17">Agency</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="20">studios</governor>
+            <dependent idx="19">movie</dependent>
+          </dep>
+          <dep type="prep_by">
+            <governor idx="5">sent</governor>
+            <dependent idx="20">studios</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">proposal</governor>
+            <dependent idx="23">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="25">proposal</governor>
+            <dependent idx="24">aggressive</dependent>
+          </dep>
+          <dep type="prep_at">
+            <governor idx="21">outraged</governor>
+            <dependent idx="25">proposal</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="27">shopped</governor>
+            <dependent idx="26">being</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="25">proposal</governor>
+            <dependent idx="27">shopped</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="31">version</governor>
+            <dependent idx="29">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="31">version</governor>
+            <dependent idx="30">film</dependent>
+          </dep>
+          <dep type="prep_for">
+            <governor idx="27">shopped</governor>
+            <dependent idx="31">version</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="37">game</governor>
+            <dependent idx="33">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="37">game</governor>
+            <dependent idx="34">popular</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">game</governor>
+            <dependent idx="35">Xbox</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="37">game</governor>
+            <dependent idx="36">video</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="31">version</governor>
+            <dependent idx="37">game</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">outraged</governor>
+            <dependent idx="38">Halo</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

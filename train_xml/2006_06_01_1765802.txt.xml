@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>ECONOMISTS</word>
+            <lemma>economist</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>classify</word>
+            <lemma>classify</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>advertising</word>
+            <lemma>advertising</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>into</word>
+            <lemma>into</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>two</word>
+            <lemma>two</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>2.0</NormalizedNER>
+          </token>
+          <token id="6">
+            <word>broad</word>
+            <lemma>broad</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>types</word>
+            <lemma>type</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>:</word>
+            <lemma>:</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>informational</word>
+            <lemma>informational</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>advertising</word>
+            <lemma>advertising</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>image</word>
+            <lemma>image</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>advertising</word>
+            <lemma>advertising</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNS ECONOMISTS)) (VP (VBP classify) (NP (NN advertising)) (PP (IN into) (NP (NP (CD two) (JJ broad) (NNS types)) (: :) (NP (NP (JJ informational) (NN advertising)) (CC and) (NP (NN image) (NN advertising)))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="2">classify</governor>
+            <dependent idx="1">ECONOMISTS</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">classify</governor>
+            <dependent idx="3">advertising</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">classify</governor>
+            <dependent idx="4">into</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">types</governor>
+            <dependent idx="5">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">types</governor>
+            <dependent idx="6">broad</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="4">into</governor>
+            <dependent idx="7">types</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">advertising</governor>
+            <dependent idx="9">informational</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">types</governor>
+            <dependent idx="10">advertising</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="10">advertising</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">advertising</governor>
+            <dependent idx="12">image</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="10">advertising</governor>
+            <dependent idx="13">advertising</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="2">classify</governor>
+            <dependent idx="1">ECONOMISTS</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">classify</governor>
+            <dependent idx="3">advertising</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">types</governor>
+            <dependent idx="5">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">types</governor>
+            <dependent idx="6">broad</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="2">classify</governor>
+            <dependent idx="7">types</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">advertising</governor>
+            <dependent idx="9">informational</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">types</governor>
+            <dependent idx="10">advertising</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">advertising</governor>
+            <dependent idx="12">image</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">advertising</governor>
+            <dependent idx="13">advertising</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="2">classify</governor>
+            <dependent idx="1">ECONOMISTS</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">classify</governor>
+            <dependent idx="3">advertising</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="7">types</governor>
+            <dependent idx="5">two</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="7">types</governor>
+            <dependent idx="6">broad</dependent>
+          </dep>
+          <dep type="prep_into">
+            <governor idx="2">classify</governor>
+            <dependent idx="7">types</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">advertising</governor>
+            <dependent idx="9">informational</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">types</governor>
+            <dependent idx="10">advertising</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="13">advertising</governor>
+            <dependent idx="12">image</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">types</governor>
+            <dependent idx="13">advertising</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="10">advertising</governor>
+            <dependent idx="13">advertising</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Classified</word>
+            <lemma>classify</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>ads</word>
+            <lemma>ad</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>118</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>yellow</word>
+            <lemma>yellow</lemma>
+            <CharacterOffsetBegin>119</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>pages</word>
+            <lemma>page</lemma>
+            <CharacterOffsetBegin>126</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>search</word>
+            <lemma>search</lemma>
+            <CharacterOffsetBegin>136</CharacterOffsetBegin>
+            <CharacterOffsetEnd>142</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>engine</word>
+            <lemma>engine</lemma>
+            <CharacterOffsetBegin>143</CharacterOffsetBegin>
+            <CharacterOffsetEnd>149</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>ads</word>
+            <lemma>ad</lemma>
+            <CharacterOffsetBegin>150</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>157</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>examples</word>
+            <lemma>example</lemma>
+            <CharacterOffsetBegin>158</CharacterOffsetBegin>
+            <CharacterOffsetEnd>166</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>167</CharacterOffsetBegin>
+            <CharacterOffsetEnd>169</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>170</CharacterOffsetBegin>
+            <CharacterOffsetEnd>173</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>first</word>
+            <lemma>first</lemma>
+            <CharacterOffsetBegin>174</CharacterOffsetBegin>
+            <CharacterOffsetEnd>179</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>ORDINAL</NER>
+            <NormalizedNER>1.0</NormalizedNER>
+          </token>
+          <token id="15">
+            <word>category</word>
+            <lemma>category</lemma>
+            <CharacterOffsetBegin>180</CharacterOffsetBegin>
+            <CharacterOffsetEnd>188</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>;</word>
+            <lemma>;</lemma>
+            <CharacterOffsetBegin>188</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+          </token>
+          <token id="17">
+            <word>they</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>194</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="18">
+            <word>provide</word>
+            <lemma>provide</lemma>
+            <CharacterOffsetBegin>195</CharacterOffsetBegin>
+            <CharacterOffsetEnd>202</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>specific</word>
+            <lemma>specific</lemma>
+            <CharacterOffsetBegin>203</CharacterOffsetBegin>
+            <CharacterOffsetEnd>211</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>information</word>
+            <lemma>information</lemma>
+            <CharacterOffsetBegin>212</CharacterOffsetBegin>
+            <CharacterOffsetEnd>223</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>about</word>
+            <lemma>about</lemma>
+            <CharacterOffsetBegin>224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>229</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="22">
+            <word>products</word>
+            <lemma>product</lemma>
+            <CharacterOffsetBegin>230</CharacterOffsetBegin>
+            <CharacterOffsetEnd>238</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="23">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>239</CharacterOffsetBegin>
+            <CharacterOffsetEnd>242</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="24">
+            <word>services</word>
+            <lemma>service</lemma>
+            <CharacterOffsetBegin>243</CharacterOffsetBegin>
+            <CharacterOffsetEnd>251</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>251</CharacterOffsetBegin>
+            <CharacterOffsetEnd>252</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (S (VP (VBN Classified) (NP (NNS ads)))) (, ,) (NP (NP (JJ yellow) (NNS pages)) (CC and) (NP (NN search) (NN engine) (NNS ads))) (VP (VBP are) (NP (NP (NNS examples)) (PP (IN of) (NP (DT the) (JJ first) (NN category)))))) (: ;) (S (NP (PRP they)) (VP (VBP provide) (NP (JJ specific) (NN information)) (PP (IN about) (NP (NNS products) (CC and) (NNS services))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="partmod">
+            <governor idx="11">examples</governor>
+            <dependent idx="1">Classified</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Classified</governor>
+            <dependent idx="2">ads</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">pages</governor>
+            <dependent idx="4">yellow</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">examples</governor>
+            <dependent idx="5">pages</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">pages</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">ads</governor>
+            <dependent idx="7">search</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">ads</governor>
+            <dependent idx="8">engine</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">pages</governor>
+            <dependent idx="9">ads</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">examples</governor>
+            <dependent idx="10">are</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="11">examples</governor>
+            <dependent idx="12">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">category</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">category</governor>
+            <dependent idx="14">first</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">of</governor>
+            <dependent idx="15">category</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">provide</governor>
+            <dependent idx="17">they</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="11">examples</governor>
+            <dependent idx="18">provide</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">information</governor>
+            <dependent idx="19">specific</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">provide</governor>
+            <dependent idx="20">information</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="18">provide</governor>
+            <dependent idx="21">about</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="21">about</governor>
+            <dependent idx="22">products</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="22">products</governor>
+            <dependent idx="23">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="22">products</governor>
+            <dependent idx="24">services</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="partmod">
+            <governor idx="11">examples</governor>
+            <dependent idx="1">Classified</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Classified</governor>
+            <dependent idx="2">ads</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">pages</governor>
+            <dependent idx="4">yellow</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">examples</governor>
+            <dependent idx="5">pages</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">ads</governor>
+            <dependent idx="7">search</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">ads</governor>
+            <dependent idx="8">engine</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">pages</governor>
+            <dependent idx="9">ads</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">examples</governor>
+            <dependent idx="10">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">category</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">category</governor>
+            <dependent idx="14">first</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="11">examples</governor>
+            <dependent idx="15">category</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">provide</governor>
+            <dependent idx="17">they</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="11">examples</governor>
+            <dependent idx="18">provide</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">information</governor>
+            <dependent idx="19">specific</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">provide</governor>
+            <dependent idx="20">information</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="18">provide</governor>
+            <dependent idx="22">products</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="22">products</governor>
+            <dependent idx="24">services</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="partmod">
+            <governor idx="11">examples</governor>
+            <dependent idx="1">Classified</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Classified</governor>
+            <dependent idx="2">ads</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">pages</governor>
+            <dependent idx="4">yellow</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">examples</governor>
+            <dependent idx="5">pages</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">ads</governor>
+            <dependent idx="7">search</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="9">ads</governor>
+            <dependent idx="8">engine</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">pages</governor>
+            <dependent idx="9">ads</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">examples</governor>
+            <dependent idx="9">ads</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">examples</governor>
+            <dependent idx="10">are</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="15">category</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">category</governor>
+            <dependent idx="14">first</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="11">examples</governor>
+            <dependent idx="15">category</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">provide</governor>
+            <dependent idx="17">they</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="11">examples</governor>
+            <dependent idx="18">provide</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="20">information</governor>
+            <dependent idx="19">specific</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="18">provide</governor>
+            <dependent idx="20">information</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="18">provide</governor>
+            <dependent idx="22">products</dependent>
+          </dep>
+          <dep type="prep_about">
+            <governor idx="18">provide</governor>
+            <dependent idx="24">services</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="22">products</governor>
+            <dependent idx="24">services</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

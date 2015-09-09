@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Behold</word>
+            <lemma>behold</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>annual</word>
+            <lemma>annual</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>SET</NER>
+            <Timex tid="t1" type="SET">P1Y</Timex>
+          </token>
+          <token id="4">
+            <word>migratory</word>
+            <lemma>migratory</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>ritual</word>
+            <lemma>ritual</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>WDT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>begun</word>
+            <lemma>begin</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (VP (VB Behold) (NP (NP (DT the) (JJ annual) (JJ migratory) (NN ritual)) (SBAR (WHNP (WDT that)) (S (VP (VBZ has) (VP (VBN begun))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="det">
+            <governor idx="5">ritual</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">ritual</governor>
+            <dependent idx="3">annual</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">ritual</governor>
+            <dependent idx="4">migratory</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Behold</governor>
+            <dependent idx="5">ritual</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">begun</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">begun</governor>
+            <dependent idx="7">has</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">ritual</governor>
+            <dependent idx="8">begun</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="det">
+            <governor idx="5">ritual</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">ritual</governor>
+            <dependent idx="3">annual</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">ritual</governor>
+            <dependent idx="4">migratory</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Behold</governor>
+            <dependent idx="5">ritual</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">begun</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">begun</governor>
+            <dependent idx="7">has</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">ritual</governor>
+            <dependent idx="8">begun</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="det">
+            <governor idx="5">ritual</governor>
+            <dependent idx="2">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">ritual</governor>
+            <dependent idx="3">annual</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">ritual</governor>
+            <dependent idx="4">migratory</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Behold</governor>
+            <dependent idx="5">ritual</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">begun</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="8">begun</governor>
+            <dependent idx="7">has</dependent>
+          </dep>
+          <dep type="rcmod">
+            <governor idx="5">ritual</governor>
+            <dependent idx="8">begun</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Millions</word>
+            <lemma>million</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>Americans</word>
+            <lemma>Americans</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NNPS</POS>
+            <NER>MISC</NER>
+          </token>
+          <token id="4">
+            <word>are</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>loading</word>
+            <lemma>load</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>up</word>
+            <lemma>up</lemma>
+            <CharacterOffsetBegin>85</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>their</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>children</word>
+            <lemma>child</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>packing</word>
+            <lemma>pack</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>their</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>suitcases</word>
+            <lemma>suitcase</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>kicking</word>
+            <lemma>kick</lemma>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>139</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>off</word>
+            <lemma>off</lemma>
+            <CharacterOffsetBegin>140</CharacterOffsetBegin>
+            <CharacterOffsetEnd>143</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>148</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="17">
+            <word>great</word>
+            <lemma>great</lemma>
+            <CharacterOffsetBegin>149</CharacterOffsetBegin>
+            <CharacterOffsetEnd>154</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="18">
+            <word>exodus</word>
+            <lemma>exodus</lemma>
+            <CharacterOffsetBegin>155</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="19">
+            <word>known</word>
+            <lemma>know</lemma>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>167</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>168</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>174</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-SU</NormalizedNER>
+            <Timex tid="t1" type="DATE">XXXX-SU</Timex>
+          </token>
+          <token id="22">
+            <word>summer</word>
+            <lemma>summer</lemma>
+            <CharacterOffsetBegin>175</CharacterOffsetBegin>
+            <CharacterOffsetEnd>181</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-SU</NormalizedNER>
+            <Timex tid="t1" type="DATE">XXXX-SU</Timex>
+          </token>
+          <token id="23">
+            <word>driving</word>
+            <lemma>drive</lemma>
+            <CharacterOffsetBegin>182</CharacterOffsetBegin>
+            <CharacterOffsetEnd>189</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="24">
+            <word>season</word>
+            <lemma>season</lemma>
+            <CharacterOffsetBegin>190</CharacterOffsetBegin>
+            <CharacterOffsetEnd>196</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>196</CharacterOffsetBegin>
+            <CharacterOffsetEnd>197</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNS Millions)) (PP (IN of) (NP (NNPS Americans)))) (VP (VBP are) (VP (VP (VBG loading) (PRT (RP up)) (NP (PRP$ their) (NNS children))) (, ,) (VP (VBG packing) (NP (PRP$ their) (NNS suitcases))) (CC and) (VP (VBG kicking) (PRT (RP off)) (NP (NP (DT that) (JJ great) (NN exodus)) (VP (VBN known) (PP (IN as) (NP (DT the) (NN summer) (VBG driving) (NN season)))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="5">loading</governor>
+            <dependent idx="1">Millions</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="1">Millions</governor>
+            <dependent idx="2">of</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="2">of</governor>
+            <dependent idx="3">Americans</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">loading</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="5">loading</governor>
+            <dependent idx="6">up</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">children</governor>
+            <dependent idx="7">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">loading</governor>
+            <dependent idx="8">children</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">loading</governor>
+            <dependent idx="10">packing</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">suitcases</governor>
+            <dependent idx="11">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">packing</governor>
+            <dependent idx="12">suitcases</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">loading</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">loading</governor>
+            <dependent idx="14">kicking</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="14">kicking</governor>
+            <dependent idx="15">off</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">exodus</governor>
+            <dependent idx="16">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">exodus</governor>
+            <dependent idx="17">great</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">kicking</governor>
+            <dependent idx="18">exodus</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="18">exodus</governor>
+            <dependent idx="19">known</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="19">known</governor>
+            <dependent idx="20">as</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">season</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">season</governor>
+            <dependent idx="22">summer</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">season</governor>
+            <dependent idx="23">driving</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="20">as</governor>
+            <dependent idx="24">season</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="5">loading</governor>
+            <dependent idx="1">Millions</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Millions</governor>
+            <dependent idx="3">Americans</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">loading</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="5">loading</governor>
+            <dependent idx="6">up</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">children</governor>
+            <dependent idx="7">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">loading</governor>
+            <dependent idx="8">children</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">loading</governor>
+            <dependent idx="10">packing</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">suitcases</governor>
+            <dependent idx="11">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">packing</governor>
+            <dependent idx="12">suitcases</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">loading</governor>
+            <dependent idx="14">kicking</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="14">kicking</governor>
+            <dependent idx="15">off</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">exodus</governor>
+            <dependent idx="16">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">exodus</governor>
+            <dependent idx="17">great</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">kicking</governor>
+            <dependent idx="18">exodus</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="18">exodus</governor>
+            <dependent idx="19">known</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">season</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">season</governor>
+            <dependent idx="22">summer</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">season</governor>
+            <dependent idx="23">driving</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="19">known</governor>
+            <dependent idx="24">season</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="5">loading</governor>
+            <dependent idx="1">Millions</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">packing</governor>
+            <dependent idx="1">Millions</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">kicking</governor>
+            <dependent idx="1">Millions</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="1">Millions</governor>
+            <dependent idx="3">Americans</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">loading</governor>
+            <dependent idx="4">are</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="5">loading</governor>
+            <dependent idx="6">up</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="8">children</governor>
+            <dependent idx="7">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">loading</governor>
+            <dependent idx="8">children</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">loading</governor>
+            <dependent idx="10">packing</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="12">suitcases</governor>
+            <dependent idx="11">their</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">packing</governor>
+            <dependent idx="12">suitcases</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="5">loading</governor>
+            <dependent idx="14">kicking</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="14">kicking</governor>
+            <dependent idx="15">off</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">exodus</governor>
+            <dependent idx="16">that</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">exodus</governor>
+            <dependent idx="17">great</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">kicking</governor>
+            <dependent idx="18">exodus</dependent>
+          </dep>
+          <dep type="partmod">
+            <governor idx="18">exodus</governor>
+            <dependent idx="19">known</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="24">season</governor>
+            <dependent idx="21">the</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="24">season</governor>
+            <dependent idx="22">summer</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="24">season</governor>
+            <dependent idx="23">driving</dependent>
+          </dep>
+          <dep type="prep_as">
+            <governor idx="19">known</governor>
+            <dependent idx="24">season</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

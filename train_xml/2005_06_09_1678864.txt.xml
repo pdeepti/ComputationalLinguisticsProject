@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Perhaps</word>
+            <lemma>perhaps</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>than</word>
+            <lemma>than</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>most</word>
+            <lemma>most</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>corporations</word>
+            <lemma>corporation</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>Citigroup</word>
+            <lemma>Citigroup</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="8">
+            <word>knows</word>
+            <lemma>know</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>perils</word>
+            <lemma>peril</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>moving</word>
+            <lemma>move</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>personal</word>
+            <lemma>personal</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="14">
+            <word>data</word>
+            <lemma>datum</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>87</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (ADJP (ADJP (RB Perhaps) (JJR more)) (PP (IN than) (NP (JJS most) (NNS corporations))))) (, ,) (NP (NNP Citigroup)) (VP (VBZ knows) (NP (NP (DT the) (NNS perils)) (PP (IN of) (S (VP (VBG moving) (NP (JJ personal) (NNS data))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="advmod">
+            <governor idx="2">more</governor>
+            <dependent idx="1">Perhaps</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">knows</governor>
+            <dependent idx="2">more</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="2">more</governor>
+            <dependent idx="3">than</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">corporations</governor>
+            <dependent idx="4">most</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="3">than</governor>
+            <dependent idx="5">corporations</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">knows</governor>
+            <dependent idx="7">Citigroup</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">perils</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">knows</governor>
+            <dependent idx="10">perils</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">perils</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="11">of</governor>
+            <dependent idx="12">moving</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">data</governor>
+            <dependent idx="13">personal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">moving</governor>
+            <dependent idx="14">data</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="advmod">
+            <governor idx="2">more</governor>
+            <dependent idx="1">Perhaps</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">knows</governor>
+            <dependent idx="2">more</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">corporations</governor>
+            <dependent idx="4">most</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="2">more</governor>
+            <dependent idx="5">corporations</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">knows</governor>
+            <dependent idx="7">Citigroup</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">perils</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">knows</governor>
+            <dependent idx="10">perils</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="10">perils</governor>
+            <dependent idx="12">moving</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">data</governor>
+            <dependent idx="13">personal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">moving</governor>
+            <dependent idx="14">data</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="advmod">
+            <governor idx="2">more</governor>
+            <dependent idx="1">Perhaps</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="8">knows</governor>
+            <dependent idx="2">more</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="5">corporations</governor>
+            <dependent idx="4">most</dependent>
+          </dep>
+          <dep type="prep_than">
+            <governor idx="2">more</governor>
+            <dependent idx="5">corporations</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">knows</governor>
+            <dependent idx="7">Citigroup</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">perils</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">knows</governor>
+            <dependent idx="10">perils</dependent>
+          </dep>
+          <dep type="prepc_of">
+            <governor idx="10">perils</governor>
+            <dependent idx="12">moving</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="14">data</governor>
+            <dependent idx="13">personal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">moving</governor>
+            <dependent idx="14">data</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>February</word>
+            <lemma>February</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>100</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1Y OFFSET P-1Y INTERSECT XXXX-02</NormalizedNER>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="3">
+            <word>last</word>
+            <lemma>last</lemma>
+            <CharacterOffsetBegin>101</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1Y OFFSET P-1Y INTERSECT XXXX-02</NormalizedNER>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="4">
+            <word>year</word>
+            <lemma>year</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS P1Y OFFSET P-1Y INTERSECT XXXX-02</NormalizedNER>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>110</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>113</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>magnetic</word>
+            <lemma>magnetic</lemma>
+            <CharacterOffsetBegin>114</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>tape</word>
+            <lemma>tape</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>127</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>128</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>information</word>
+            <lemma>information</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>145</CharacterOffsetBegin>
+            <CharacterOffsetEnd>147</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>about</word>
+            <lemma>about</lemma>
+            <CharacterOffsetBegin>148</CharacterOffsetBegin>
+            <CharacterOffsetEnd>153</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="13">
+            <word>120,000</word>
+            <lemma>120,000</lemma>
+            <CharacterOffsetBegin>154</CharacterOffsetBegin>
+            <CharacterOffsetEnd>161</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>~120000.0</NormalizedNER>
+          </token>
+          <token id="14">
+            <word>Japanese</word>
+            <lemma>japanese</lemma>
+            <CharacterOffsetBegin>162</CharacterOffsetBegin>
+            <CharacterOffsetEnd>170</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>MISC</NER>
+          </token>
+          <token id="15">
+            <word>customers</word>
+            <lemma>customer</lemma>
+            <CharacterOffsetBegin>171</CharacterOffsetBegin>
+            <CharacterOffsetEnd>180</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="16">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>181</CharacterOffsetBegin>
+            <CharacterOffsetEnd>183</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="17">
+            <word>its</word>
+            <lemma>its</lemma>
+            <CharacterOffsetBegin>184</CharacterOffsetBegin>
+            <CharacterOffsetEnd>187</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+          </token>
+          <token id="18">
+            <word>Citibank</word>
+            <lemma>Citibank</lemma>
+            <CharacterOffsetBegin>188</CharacterOffsetBegin>
+            <CharacterOffsetEnd>196</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>ORGANIZATION</NER>
+          </token>
+          <token id="19">
+            <word>division</word>
+            <lemma>division</lemma>
+            <CharacterOffsetBegin>197</CharacterOffsetBegin>
+            <CharacterOffsetEnd>205</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="20">
+            <word>disappeared</word>
+            <lemma>disappear</lemma>
+            <CharacterOffsetBegin>206</CharacterOffsetBegin>
+            <CharacterOffsetEnd>217</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="21">
+            <word>while</word>
+            <lemma>while</lemma>
+            <CharacterOffsetBegin>218</CharacterOffsetBegin>
+            <CharacterOffsetEnd>223</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="22">
+            <word>being</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>224</CharacterOffsetBegin>
+            <CharacterOffsetEnd>229</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+          </token>
+          <token id="23">
+            <word>shipped</word>
+            <lemma>ship</lemma>
+            <CharacterOffsetBegin>230</CharacterOffsetBegin>
+            <CharacterOffsetEnd>237</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="24">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>238</CharacterOffsetBegin>
+            <CharacterOffsetEnd>240</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="25">
+            <word>truck</word>
+            <lemma>truck</lemma>
+            <CharacterOffsetBegin>241</CharacterOffsetBegin>
+            <CharacterOffsetEnd>246</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="26">
+            <word>from</word>
+            <lemma>from</lemma>
+            <CharacterOffsetBegin>247</CharacterOffsetBegin>
+            <CharacterOffsetEnd>251</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="27">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>252</CharacterOffsetBegin>
+            <CharacterOffsetEnd>253</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="28">
+            <word>data</word>
+            <lemma>datum</lemma>
+            <CharacterOffsetBegin>254</CharacterOffsetBegin>
+            <CharacterOffsetEnd>258</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="29">
+            <word>management</word>
+            <lemma>management</lemma>
+            <CharacterOffsetBegin>259</CharacterOffsetBegin>
+            <CharacterOffsetEnd>269</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="30">
+            <word>center</word>
+            <lemma>center</lemma>
+            <CharacterOffsetBegin>270</CharacterOffsetBegin>
+            <CharacterOffsetEnd>276</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="31">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>277</CharacterOffsetBegin>
+            <CharacterOffsetEnd>279</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="32">
+            <word>Singapore</word>
+            <lemma>Singapore</lemma>
+            <CharacterOffsetBegin>280</CharacterOffsetBegin>
+            <CharacterOffsetEnd>289</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+          </token>
+          <token id="33">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>289</CharacterOffsetBegin>
+            <CharacterOffsetEnd>290</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (NNP February))) (NP-TMP (JJ last) (NN year)) (, ,) (NP (NP (DT a) (JJ magnetic) (NN tape)) (PP (IN with) (NP (NP (NN information)) (PP (IN on) (PP (IN about) (NP (NP (CD 120,000) (JJ Japanese) (NNS customers)) (PP (IN of) (NP (PRP$ its) (NNP Citibank) (NN division))))))))) (VP (VBD disappeared) (SBAR (IN while) (S (VP (VBG being) (VP (VBN shipped) (PP (IN by) (NP (NN truck))) (PP (IN from) (NP (NP (DT a) (NN data) (NN management) (NN center)) (PP (IN in) (NP (NNP Singapore)))))))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="prep">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="1">In</governor>
+            <dependent idx="2">February</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">year</governor>
+            <dependent idx="3">last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="4">year</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">tape</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">tape</governor>
+            <dependent idx="7">magnetic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="8">tape</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="8">tape</governor>
+            <dependent idx="9">with</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="9">with</governor>
+            <dependent idx="10">information</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">information</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="11">on</governor>
+            <dependent idx="12">about</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">customers</governor>
+            <dependent idx="13">120,000</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">customers</governor>
+            <dependent idx="14">Japanese</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">about</governor>
+            <dependent idx="15">customers</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="15">customers</governor>
+            <dependent idx="16">of</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">division</governor>
+            <dependent idx="17">its</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">division</governor>
+            <dependent idx="18">Citibank</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="16">of</governor>
+            <dependent idx="19">division</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">shipped</governor>
+            <dependent idx="21">while</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="23">shipped</governor>
+            <dependent idx="22">being</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="23">shipped</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="23">shipped</governor>
+            <dependent idx="24">by</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="24">by</governor>
+            <dependent idx="25">truck</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="23">shipped</governor>
+            <dependent idx="26">from</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">center</governor>
+            <dependent idx="27">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">center</governor>
+            <dependent idx="28">data</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">center</governor>
+            <dependent idx="29">management</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="26">from</governor>
+            <dependent idx="30">center</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="30">center</governor>
+            <dependent idx="31">in</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="31">in</governor>
+            <dependent idx="32">Singapore</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="prep_in">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="2">February</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">year</governor>
+            <dependent idx="3">last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="4">year</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">tape</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">tape</governor>
+            <dependent idx="7">magnetic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="8">tape</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="8">tape</governor>
+            <dependent idx="10">information</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">information</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="11">on</governor>
+            <dependent idx="12">about</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">customers</governor>
+            <dependent idx="13">120,000</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">customers</governor>
+            <dependent idx="14">Japanese</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">about</governor>
+            <dependent idx="15">customers</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">division</governor>
+            <dependent idx="17">its</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">division</governor>
+            <dependent idx="18">Citibank</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">customers</governor>
+            <dependent idx="19">division</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">shipped</governor>
+            <dependent idx="21">while</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="23">shipped</governor>
+            <dependent idx="22">being</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="23">shipped</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="23">shipped</governor>
+            <dependent idx="25">truck</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">center</governor>
+            <dependent idx="27">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">center</governor>
+            <dependent idx="28">data</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">center</governor>
+            <dependent idx="29">management</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="23">shipped</governor>
+            <dependent idx="30">center</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="30">center</governor>
+            <dependent idx="32">Singapore</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="prep_in">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="2">February</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="4">year</governor>
+            <dependent idx="3">last</dependent>
+          </dep>
+          <dep type="tmod">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="4">year</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">tape</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">tape</governor>
+            <dependent idx="7">magnetic</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="8">tape</dependent>
+          </dep>
+          <dep type="prep_with">
+            <governor idx="8">tape</governor>
+            <dependent idx="10">information</dependent>
+          </dep>
+          <dep type="prep">
+            <governor idx="10">information</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="pcomp">
+            <governor idx="11">on</governor>
+            <dependent idx="12">about</dependent>
+          </dep>
+          <dep type="num">
+            <governor idx="15">customers</governor>
+            <dependent idx="13">120,000</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="15">customers</governor>
+            <dependent idx="14">Japanese</dependent>
+          </dep>
+          <dep type="pobj">
+            <governor idx="12">about</governor>
+            <dependent idx="15">customers</dependent>
+          </dep>
+          <dep type="poss">
+            <governor idx="19">division</governor>
+            <dependent idx="17">its</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="19">division</governor>
+            <dependent idx="18">Citibank</dependent>
+          </dep>
+          <dep type="prep_of">
+            <governor idx="15">customers</governor>
+            <dependent idx="19">division</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="23">shipped</governor>
+            <dependent idx="21">while</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="23">shipped</governor>
+            <dependent idx="22">being</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="20">disappeared</governor>
+            <dependent idx="23">shipped</dependent>
+          </dep>
+          <dep type="agent">
+            <governor idx="23">shipped</governor>
+            <dependent idx="25">truck</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="30">center</governor>
+            <dependent idx="27">a</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">center</governor>
+            <dependent idx="28">data</dependent>
+          </dep>
+          <dep type="nn">
+            <governor idx="30">center</governor>
+            <dependent idx="29">management</dependent>
+          </dep>
+          <dep type="prep_from">
+            <governor idx="23">shipped</governor>
+            <dependent idx="30">center</dependent>
+          </dep>
+          <dep type="prep_in">
+            <governor idx="30">center</governor>
+            <dependent idx="32">Singapore</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="3">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>291</CharacterOffsetBegin>
+            <CharacterOffsetEnd>294</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>tape</word>
+            <lemma>tape</lemma>
+            <CharacterOffsetBegin>295</CharacterOffsetBegin>
+            <CharacterOffsetEnd>299</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>held</word>
+            <lemma>hold</lemma>
+            <CharacterOffsetBegin>300</CharacterOffsetBegin>
+            <CharacterOffsetEnd>304</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>names</word>
+            <lemma>name</lemma>
+            <CharacterOffsetBegin>305</CharacterOffsetBegin>
+            <CharacterOffsetEnd>310</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>310</CharacterOffsetBegin>
+            <CharacterOffsetEnd>311</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>addresses</word>
+            <lemma>address</lemma>
+            <CharacterOffsetBegin>312</CharacterOffsetBegin>
+            <CharacterOffsetEnd>321</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>321</CharacterOffsetBegin>
+            <CharacterOffsetEnd>322</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+          </token>
+          <token id="8">
+            <word>account</word>
+            <lemma>account</lemma>
+            <CharacterOffsetBegin>323</CharacterOffsetBegin>
+            <CharacterOffsetEnd>330</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="9">
+            <word>numbers</word>
+            <lemma>number</lemma>
+            <CharacterOffsetBegin>331</CharacterOffsetBegin>
+            <CharacterOffsetEnd>338</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="10">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>339</CharacterOffsetBegin>
+            <CharacterOffsetEnd>342</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+          </token>
+          <token id="11">
+            <word>balances</word>
+            <lemma>balance</lemma>
+            <CharacterOffsetBegin>343</CharacterOffsetBegin>
+            <CharacterOffsetEnd>351</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>351</CharacterOffsetBegin>
+            <CharacterOffsetEnd>352</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN tape)) (VP (VBD held) (SBAR (S (NP (NP (NNS names)) (, ,) (NP (NNS addresses)) (, ,)) (VP (VBP account) (NP (NNS numbers) (CC and) (NNS balances)))))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="det">
+            <governor idx="2">tape</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">held</governor>
+            <dependent idx="2">tape</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">account</governor>
+            <dependent idx="4">names</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">names</governor>
+            <dependent idx="6">addresses</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">held</governor>
+            <dependent idx="8">account</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">account</governor>
+            <dependent idx="9">numbers</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">numbers</governor>
+            <dependent idx="10">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">numbers</governor>
+            <dependent idx="11">balances</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="det">
+            <governor idx="2">tape</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">held</governor>
+            <dependent idx="2">tape</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">account</governor>
+            <dependent idx="4">names</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">names</governor>
+            <dependent idx="6">addresses</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">held</governor>
+            <dependent idx="8">account</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">account</governor>
+            <dependent idx="9">numbers</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">numbers</governor>
+            <dependent idx="11">balances</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="det">
+            <governor idx="2">tape</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">held</governor>
+            <dependent idx="2">tape</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">account</governor>
+            <dependent idx="4">names</dependent>
+          </dep>
+          <dep type="appos">
+            <governor idx="4">names</governor>
+            <dependent idx="6">addresses</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="3">held</governor>
+            <dependent idx="8">account</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">account</governor>
+            <dependent idx="9">numbers</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">account</governor>
+            <dependent idx="11">balances</dependent>
+          </dep>
+          <dep type="conj_and">
+            <governor idx="9">numbers</governor>
+            <dependent idx="11">balances</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+      <sentence id="4">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>353</CharacterOffsetBegin>
+            <CharacterOffsetEnd>355</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="2">
+            <word>has</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>356</CharacterOffsetBegin>
+            <CharacterOffsetEnd>359</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+          </token>
+          <token id="3">
+            <word>never</word>
+            <lemma>never</lemma>
+            <CharacterOffsetBegin>360</CharacterOffsetBegin>
+            <CharacterOffsetEnd>365</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+          </token>
+          <token id="4">
+            <word>turned</word>
+            <lemma>turn</lemma>
+            <CharacterOffsetBegin>366</CharacterOffsetBegin>
+            <CharacterOffsetEnd>372</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+          </token>
+          <token id="5">
+            <word>up</word>
+            <lemma>up</lemma>
+            <CharacterOffsetBegin>373</CharacterOffsetBegin>
+            <CharacterOffsetEnd>375</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+          </token>
+          <token id="6">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>375</CharacterOffsetBegin>
+            <CharacterOffsetEnd>376</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VBZ has) (ADVP (RB never)) (VP (VBN turned) (PRT (RP up)))) (. .))) </parse>
+        <basic-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">turned</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">turned</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">turned</governor>
+            <dependent idx="3">never</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="4">turned</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+        </basic-dependencies>
+        <collapsed-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">turned</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">turned</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">turned</governor>
+            <dependent idx="3">never</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="4">turned</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+        </collapsed-dependencies>
+        <collapsed-ccprocessed-dependencies>
+          <dep type="nsubj">
+            <governor idx="4">turned</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">turned</governor>
+            <dependent idx="2">has</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">turned</governor>
+            <dependent idx="3">never</dependent>
+          </dep>
+          <dep type="prt">
+            <governor idx="4">turned</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+        </collapsed-ccprocessed-dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
